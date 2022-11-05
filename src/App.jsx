@@ -9,9 +9,9 @@ import tw from 'twin.macro';
 import styled from '@emotion/styled/macro';
 
 import { Routes, Route } from 'react-router-dom';
-import { color } from './styles/palette';
 
 const AppWrapper = styled.div([tw`w-[360px] h-[800px] bg-[#F3F6FB]`]);
+
 function App() {
   return (
     <AppWrapper className='App'>
