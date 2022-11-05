@@ -4,7 +4,7 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   mode: 'jit',
-  content: ['/src/**/*.{js,jsx}'],
+  content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
       spacing: {
@@ -23,6 +23,7 @@ module.exports = {
         //...
       },
       fontFamily: {
+        one: ['One', 'Arial', 'sans - serif'],
         garamond: 'GaramondPremrPro, Arial, sans-serif',
         noto: 'Noto Sans, Arial, sans-serif',
       },
