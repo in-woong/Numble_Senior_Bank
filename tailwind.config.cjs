@@ -72,7 +72,9 @@ module.exports = {
           '100%': { opacity: 1 },
         },
       },
-
+      colors: {
+        'light-gray': '#D8D8DC',
+      },
       animation: {
         show: 'show 200ms cubic-bezier(.6, 0, .4, 1) 1000ms forwards',
         fadeIn: 'fadeIn 300ms cubic-bezier(.6, 0, .4, 1) forwards',
