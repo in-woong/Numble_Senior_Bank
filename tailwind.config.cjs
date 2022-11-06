@@ -23,7 +23,8 @@ module.exports = {
         //...
       },
       fontFamily: {
-        one: ['One', 'Arial', 'sans - serif'],
+        one: ['One', 'Arial', 'sans-serif'],
+        adream4: ['Aream', 'Arial', 'sans-serif'],
         garamond: 'GaramondPremrPro, Arial, sans-serif',
         noto: 'Noto Sans, Arial, sans-serif',
       },

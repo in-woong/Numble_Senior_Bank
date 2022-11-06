@@ -4,5 +4,10 @@
 
 @font-face {
   font-family: 'One';
-  src: url('./assets/fonts/ONE\ Mobile\ OTF\ Regular.otf') format('opentype');
+  src: url('./assets/fonts/ONEMobileOTFRegular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Adream4';
+  src: url('./assets/fonts/adream4.otf') format('opentype');
 }
