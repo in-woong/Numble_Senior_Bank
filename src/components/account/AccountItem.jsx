@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bankLogo from '../../lib/img/img_ci1.png';
 const AccountItem = () => {
   return (
@@ -17,9 +18,10 @@ const AccountItem = () => {
         </div>
       </div>
       <p className='mt-[14px] text-[26px]'>45,564원</p>
-      <button className='mt-[22px] bg-[#0471E8] w-[296px] h-[38px] rounded-[8px] text-white'>
-        이체
-      </button>
+
+      <div className='mt-[22px] bg-[#0471E8] w-[296px] h-[38px] rounded-[8px] text-white'>
+        <Link to='/hugetansferpopup'>이체</Link>
+      </div>
     </div>
   );
 };
